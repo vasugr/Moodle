@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background3">
+
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Name" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="-" />
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="2dp"
+        android:background="#ffffff"
+         />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Roll no/ Faculty Id" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/edittext_id"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Department" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/edittext_department"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Email" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/edittext_username"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Password" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/edittext_password"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Confirm Password" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/edittext_cnf_password"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+             />
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/fac_stu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:checked="true"
+            android:text="Faculty" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Student" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/login"
+        android:text="@string/register1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/already_registered"/>
+        <TextView
+            android:id="@+id/textview_login"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/login"/>
+    </LinearLayout>
+
+</LinearLayout>
