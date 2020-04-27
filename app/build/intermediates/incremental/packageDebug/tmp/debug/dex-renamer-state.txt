@@ -1,0 +1,4 @@
+#Mon Apr 06 18:14:01 IST 2020
+base.0=D\:\\dbms\\LoginReg\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -182,14 +182,12 @@
         android:gravity="center_horizontal">
 
         <RadioButton
-            android:id="@+id/male"
             android:layout_width="100dp"
             android:layout_height="40dp"
             android:checked="true"
             android:text="Faculty" />
 
         <RadioButton
-            android:id="@+id/female"
             android:layout_width="100dp"
             android:layout_height="40dp"
             android:text="Student" />

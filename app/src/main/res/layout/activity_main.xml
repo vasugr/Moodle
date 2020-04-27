@@ -20,8 +20,8 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:paddingLeft="1dp"
-        android:drawableLeft="@drawable/username"
+        android:paddingStart="1dp"
+        android:drawableStart="@drawable/username"
         android:hint="@string/Username" />
 
     <EditText
@@ -29,15 +29,36 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:drawableLeft="@drawable/password"
+        android:drawableStart="@drawable/password"
         android:hint="@string/Password"/>
 
+    <RadioGroup
+        android:id="@+id/fac_stu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+
+        <RadioButton
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:checked="true"
+            android:text="@string/faculty" />
+
+        <RadioButton
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="@string/student" />
+
+
+    </RadioGroup>
     <Button
         android:id="@+id/button_login"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:drawableLeft="@drawable/login"
+        android:drawableStart="@drawable/login"
         android:text="@string/Login"/>
 
     <LinearLayout

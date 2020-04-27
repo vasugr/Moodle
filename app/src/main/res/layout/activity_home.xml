@@ -13,15 +13,14 @@
         android:layout_marginBottom="73dp"
         android:fontFamily="cursive"
         android:lineSpacingExtra="18sp"
-        android:text="TextView"
+        android:text="Welcome Faculty"
         android:textAllCaps="true"
         android:textColor="#009688"
         android:textSize="70sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/seekBar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView"
-        tools:text="@string/welcome_user" />
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
 
     <CheckBox
         android:id="@+id/checkBox"
